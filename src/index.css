@@ -10,6 +10,7 @@ body {
 html, body {
     background-color: #6b757a;
     background-image: url("./assets/pictures/wallpaper.jpg");
+    background-size: 1280px;
 }
 
 code {
