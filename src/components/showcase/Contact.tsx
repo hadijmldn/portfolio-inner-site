@@ -4,6 +4,7 @@ import twitterIcon from '../../assets/pictures/contact-twitter.png';
 import ghIcon from '../../assets/pictures/contact-gh.png';
 import inIcon from '../../assets/pictures/contact-in.png';
 import ResumeDownload from './ResumeDownload';
+import emailjs from '@emailjs/browser';
 
 export interface ContactProps {}
 
@@ -51,18 +52,14 @@ const Contact: React.FC<ContactProps> = (props) => {
     const handleSubmit = useCallback(() => {
         if (isFormValid) {
             setIsLoading(true);
-            fetch('/', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json',
-                },
-                body: JSON.stringify({
-                    company,
-                    email,
-                    name,
-                    message,
-                }),
-            })
+            emailjs.send('service_y3ctu6p', 'template_kdxkk9b', {
+                company,
+                email,
+                name,
+                message,
+            },
+                'IrUpIov5mMNvUvc4T'
+            )
                 .then((res) => {
                     if (res.status === 200) {
                         setFormMessage(
