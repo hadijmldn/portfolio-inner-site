@@ -10,19 +10,19 @@ const Experience: React.FC<ExperienceProps> = (props) => {
             <div style={styles.headerContainer}>
                 <div style={styles.header}>
                     <div style={styles.headerRow}>
-                        <h1>Hover</h1>
+                        <h1>Freelance</h1>
                         <a
                             rel="noreferrer"
                             target="_blank"
                             href={'https://hover.gg/'}
                         >
-                            <h4>www.hover.gg</h4>
+                            <h4></h4>
                         </a>
                     </div>
                     <div style={styles.headerRow}>
                         <h3>Frontend Engineer</h3>
                         <b>
-                            <p>Summer 2020 - Fall 2021</p>
+                            <p>Summer 2022</p>
                         </b>
                     </div>
                 </div>
@@ -31,7 +31,7 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                 <p>
                     Targeted towards online content creators and streamers
                     looking to build a brand, Hover is the home of over 150K
-                    users. Written in Typescript using React, React-Native,
+                    users. Written in JavaScript using React, React-Native,
                     Framer, Express, and Redux.
                 </p>
                 <br />
@@ -82,29 +82,29 @@ const Experience: React.FC<ExperienceProps> = (props) => {
             <div style={styles.headerContainer}>
                 <div style={styles.header}>
                     <div style={styles.headerRow}>
-                        <h1>BrACS</h1>
+                        <h1>AuthenCity</h1>
                         <a
                             target="_blank"
                             rel="noreferrer"
-                            href={'https://bracs.co/'}
+                            href={'https://fivem.authen.co.id/'}
                         >
-                            <h4>www.bracs.co</h4>
+                            <h4>www.authen.co.id</h4>
                         </a>
                     </div>
                     <div style={styles.headerRow}>
-                        <h3>Team Lead & Engineer</h3>
+                        <h3>Team Lead & Engineer Game Developer</h3>
                         <b>
-                            <p>Fall 2021 - Spring 2022</p>
+                            <p>Fall 2022</p>
                         </b>
                     </div>
                 </div>
             </div>
             <div className="text-block">
                 <p>
-                    Supervised and developed the front end of bracs.co, a
+                    Supervised and developed the front end of Authen Indonesia, a
                     beautifully simple and effective bracket creation and
-                    management engine. Written in Typescript using React and
-                    deployed using AWS Elastic Beanstalk.
+                    management engine. Written in JavaScript using React and
+                    deployed.
                 </p>
                 <br />
                 <ul>
@@ -138,19 +138,68 @@ const Experience: React.FC<ExperienceProps> = (props) => {
             <div style={styles.headerContainer}>
                 <div style={styles.header}>
                     <div style={styles.headerRow}>
-                        <h1>K-F/X</h1>
+                        <h1>Indotribes RolePlay</h1>
                         <a
                             target="_blank"
                             rel="noreferrer"
-                            href={'https://kfxnyc.com/'}
+                            href={''}
                         >
-                            <h4>www.kfxnyc.com</h4>
+                            <h4></h4>
                         </a>
                     </div>
                     <div style={styles.headerRow}>
-                        <h3>Special Effects Technician</h3>
+                        <h3>Game Developer</h3>
                         <b>
-                            <p>Fall 2019, Summer 2021</p>
+                            <p>Fall 2022 - summer 2023</p>
+                        </b>
+                    </div>
+                </div>
+            </div>
+            <div className="text-block">
+                <p>
+                    Develop and write server-side scripts using Lua programming language
+                    to create custom game mechanics, features, and functionalities.
+                </p>
+                <br />
+                <ul>
+                    <li>
+                        <p>
+                            Designed, developed and tested game software, exceeding user expectations.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Assessed game difficulty levels, providing enjoyable playing experience for all users.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Collaborate with other developers to ensure compatibility and integration of various scripts.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Debug and troubleshoot code to fix issues and optimize performance.
+                        </p>
+                    </li>
+                </ul>
+            </div>
+            <div style={styles.headerContainer}>
+                <div style={styles.header}>
+                    <div style={styles.headerRow}>
+                        <h1>Koperasi Dadali</h1>
+                        <a
+                            target="_blank"
+                            rel="noreferrer"
+                            href={'https://www.koperasidadali.com/'}
+                        >
+                            <h4>www.koperasidadali.com</h4>
+                        </a>
+                    </div>
+                    <div style={styles.headerRow}>
+                        <h3>Web Developer</h3>
+                        <b>
+                            <p>Fall 2013, Summer 2023</p>
                         </b>
                     </div>
                 </div>

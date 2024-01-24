@@ -44,8 +44,7 @@ const About: React.FC<AboutProps> = (props) => {
                     <img src={me} style={styles.image} alt="" />
                     <p>
                         <sub>
-                            <b>Figure 1:</b> A real photo of me developing this
-                            website :)
+                            <b>Figure 1:</b> A real photo of me when im at Elementary School :)
                         </sub>
                     </p>
                 </div>
@@ -87,12 +86,12 @@ const About: React.FC<AboutProps> = (props) => {
                             playing video games.
                         </p>
                         <br />
-                        <p>
+                        {/* <p>
                             In college, I was an active member in the fraternity
                             Sigma Alpha Epsilon and held multiple positions in
                             the chapter. I met a lot of amazing people through
                             my fraternity and thoroughly enjoyed the community.
-                        </p>
+                        </p> */}
                     </div>
                     <div style={styles.verticalImage}>
                         <img src={meNow} style={styles.image} alt="" />

@@ -13,6 +13,7 @@ import DesktopShortcut, { DesktopShortcutProps } from './DesktopShortcut';
 import Scrabble from '../applications/Scrabble';
 import { IconName } from '../../assets/icons';
 import Credits from '../applications/Credits';
+import meNow from '../../assets/pictures/currentme.jpg';
 
 export interface DesktopProps {}
 
@@ -274,7 +275,7 @@ const styles: StyleSheetCSS = {
     desktop: {
         minHeight: '100%',
         flex: 1,
-        backgroundColor: Colors.turquoise,
+        backgroundImage: '../../assets/pictures/currentme.jpg'
     },
     shutdown: {
         minHeight: '100%',

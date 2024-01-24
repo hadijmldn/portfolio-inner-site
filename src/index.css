@@ -8,7 +8,8 @@ body {
 }
 
 html, body {
-    background-color: #fff;
+    background-color: #6b757a;
+    background-image: url("./assets/pictures/wallpaper.jpg");
 }
 
 code {
