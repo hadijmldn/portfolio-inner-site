@@ -20,7 +20,8 @@ import scrabbleIcon from './scrabbleIcon.png';
 import close from './close.png';
 import kingsBeach from './kingsBeach.png';
 import monopoly from './monopoly.png';
-
+import fifa from './fifa.png';
+import lamborghini from './lamborghini.png';
 const icons = {
     windowResize: windowResize,
     maximize: maximize,
@@ -42,6 +43,8 @@ const icons = {
     trailIcon: trailIcon,
     kingsBeach: kingsBeach,
     monopoly: monopoly,
+    fifa: fifa,
+    lamborghini: lamborghini,
 };
 
 export type IconName = keyof typeof icons;

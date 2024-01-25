@@ -14,6 +14,8 @@ import Scrabble from '../applications/Scrabble';
 import { IconName } from '../../assets/icons';
 import Credits from '../applications/Credits';
 import meNow from '../../assets/pictures/currentme.jpg';
+import Fifa from '../applications/Fifa';
+import Lamborghini from '../applications/Lamborghini';
 
 export interface DesktopProps {}
 
@@ -80,6 +82,18 @@ const APPLICATIONS: {
         name: 'Monopoly',
         shortcutIcon: 'monopoly',
         component: Monopoly,
+    },
+    fifa: {
+        key: 'fifa',
+        name: 'Fifa',
+        shortcutIcon: 'fifa',
+        component: Fifa,
+    },
+    lamborghini: {
+        key: 'lamborghini',
+        name: 'Lamborghini',
+        shortcutIcon: 'lamborghini',
+        component: Lamborghini,
     }
 };
 
