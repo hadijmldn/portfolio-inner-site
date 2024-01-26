@@ -105,11 +105,11 @@ const About: React.FC<AboutProps> = (props) => {
                     Thanks for reading about me! I hope that you enjoy exploring
                     the rest of my portfolio website and everything it has to
                     offer. If you find the easter egg make sure to let me know
-                    on twitter{' '}
+                    on Instagram{' '}
                     <a
                         rel="noreferrer"
                         target="_blank"
-                        href="https://twitter.com/hadijmldn"
+                        href="https://www.instagram.com/haadijmldn/"
                     >
                         @hadijmldn
                     </a>{' '}

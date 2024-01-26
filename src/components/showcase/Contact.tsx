@@ -116,7 +116,7 @@ const Contact: React.FC<ContactProps> = (props) => {
                     />
                     <SocialBox
                         icon={twitterIcon}
-                        link={'https://twitter.com/hadijmldn'}
+                        link={'https://www.instagram.com/haadijmldn/'}
                     />
                 </div>
             </div>
