@@ -161,10 +161,9 @@ const SoftwareProjects: React.FC<SoftwareProjectsProps> = (props) => {
                             target="_blank"
                             href="https://foodie-navy.vercel.app/"
                         >
-                            {/* <p>
-                                <b>[GitHub]</b> - Guntattchment Saga The Sequel
-                                Unity Repository
-                            </p> */}
+                            <p>
+                                <b>[OS Site]</b> - foodie.vercel.app
+                            </p>
                         </a>
                     </li>
                     <li>
