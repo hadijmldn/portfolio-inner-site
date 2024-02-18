@@ -2,7 +2,7 @@ import React from 'react';
 // @ts-ignore
 import saga from '../../../assets/pictures/projects/software/saga.mp4';
 // @ts-ignore
-import computer from '../../../assets/pictures/projects/software/computer.mp4';
+import udin from '../../../assets/pictures/projects/software/foodie.mp4';
 // @ts-ignore
 import scroll from '../../../assets/pictures/projects/software/scroll.mp4';
 import ResumeDownload from '../ResumeDownload';
@@ -129,6 +129,63 @@ const SoftwareProjects: React.FC<SoftwareProjectsProps> = (props) => {
                 </p> */}
             </div>
             <div className="text-block">
+                <h2>Foodie.</h2>
+                <br />
+                <p>
+                    Foodie is a restaurant website, i created this website using
+                    HTML, CSS, and vanilla JavaScript.
+                </p>
+                <br />
+                <div className="captioned-image">
+                    <VideoAsset src={udin} />
+                    <div style={styles.caption}>
+                        <p>
+                            <sub>
+                                <b>Figure 2: </b> I create this website because
+                                I like Hamburger
+                            </sub>
+                        </p>
+                    </div>
+                </div>
+                <p>
+                    Foodie a really fun project to work on and had a multitude
+                    of challenges. An interesting challenge that you may not
+                    even notice.
+                </p>
+                <br />
+                <h3>Links:</h3>
+                <ul>
+                    <li>
+                        <a
+                            rel="noreferrer"
+                            target="_blank"
+                            href="https://foodie-navy.vercel.app/"
+                        >
+                            {/* <p>
+                                <b>[GitHub]</b> - Guntattchment Saga The Sequel
+                                Unity Repository
+                            </p> */}
+                        </a>
+                    </li>
+                    <li>
+                        <a
+                            rel="noreferrer"
+                            target="_blank"
+                            href="https://github.com/hadijmldn/foodie"
+                        >
+                            <p>
+                                <b>[GitHub]</b> - Foodie Assets Repository
+                            </p>
+                        </a>
+                    </li>
+                </ul>
+                {/* <p>
+                    Unfortunately, the game currently is not in a releasable
+                    state and so there is no demo available online. If this ever
+                    changes, however, a link to the game will be added here.
+                </p>
+            </div>
+            <div className="text-block">
                 <h2>Guntattchment Saga The Sequel</h2>
                 <br />
                 <p>
@@ -139,7 +196,7 @@ const SoftwareProjects: React.FC<SoftwareProjectsProps> = (props) => {
                     on your weapon as you can. The game ceased development in
                     2019 because we unfortunately both had packed school
                     schedules and were unable to find the time to work on it.
-                </p>
+                </p> */}
                 <br />
                 <div className="captioned-image">
                     <VideoAsset src={saga} />
