@@ -52,7 +52,7 @@ const Contact: React.FC<ContactProps> = (props) => {
     const handleSubmit = useCallback(() => {
         if (isFormValid) {
             setIsLoading(true);
-            emailjs.send('service_y3ctu6p', 'template_kdxkk9b', {
+            emailjs.send('service_rqelogu', 'template_kdxkk9b', {
                 company,
                 email,
                 name,
