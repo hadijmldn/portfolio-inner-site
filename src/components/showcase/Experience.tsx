@@ -278,7 +278,7 @@ Southeast Asia, the Gulf, and the UK
                     50+ people.
                 </p>
                 <br />
-                <h3 style={styles.indent}>Screen Credits:</h3>
+                {/* <h3 style={styles.indent}>Screen Credits:</h3>
                 <ul>
                     <li style={styles.row}>
                         <p>• Ray Donovan</p>
@@ -350,7 +350,7 @@ Southeast Asia, the Gulf, and the UK
                             ]
                         </p>
                     </li>
-                </ul>
+                </ul> */}
             </div>
         </div>
     );

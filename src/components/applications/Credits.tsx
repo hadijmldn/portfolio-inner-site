@@ -13,7 +13,7 @@ const CREDITS = [
     {
         title: 'Modeling & Texturing',
         rows: [
-            ['Henry Heffernan', 'Texturing, Composition, & UV'],
+            // ['Henry Heffernan', 'Texturing, Composition, & UV'],
             ['Mickael Boitte', 'Computer Model'],
             ['Sean Nicolas', 'Environment Models'],
         ],
@@ -21,7 +21,7 @@ const CREDITS = [
     {
         title: 'Sound Design',
         rows: [
-            ['Henry Heffernan', 'Mixing, Composition, & Foley'],
+            // ['Henry Heffernan', 'Mixing, Composition, & Foley'],
             ['Sound Cassette', 'Office Ambience'],
             ['Windows 95 Startup Sound', 'Microsoft'],
         ],
@@ -31,8 +31,8 @@ const CREDITS = [
         rows: [
             ['Bruno Simon', 'SimonDev'],
             ['Lorelei Kravinsky', 'Scott Bass'],
-            ['Henry Heffernan', 'Texturing, Composition, & UV' ],
-            ['Trey Briccetti', 'Mom, Dad & Angela'],
+            // ['Henry Heffernan', 'Texturing, Composition, & UV' ],
+            ['Trey Briccetti', 'Mom, Dad'],
         ],
     },
     {
@@ -88,7 +88,7 @@ const Credits: React.FC<CreditsProps> = (props) => {
                 style={styles.credits}
             >
                 <h2>Credits</h2>
-                <p>henryheffernan.com, 2022</p>
+                <p>Hadi Jamaludin, 2023</p>
                 <br />
                 <br />
                 <br />
