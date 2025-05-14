@@ -40,7 +40,7 @@ const CREDITS = [
         rows: [
             ['Bruno Simon', 'Jesse Zhou'],
             ['Pink Yellow', 'Vivek Patel'],
-            ['Henry Heffernan', 'Lorelei Kravinsky'],
+            // ['Henry Heffernan', 'Lorelei Kravinsky'],
         ],
     },
 ];
@@ -80,7 +80,7 @@ const Credits: React.FC<CreditsProps> = (props) => {
             closeWindow={props.onClose}
             onInteract={props.onInteract}
             minimizeWindow={props.onMinimize}
-            bottomLeftText={'© Copyright 2022 Henry Heffernan'}
+            bottomLeftText={'© Copyright 2023 Hadi Jamaludin'}
         >
             <div
                 onMouseDown={nextSlide}
