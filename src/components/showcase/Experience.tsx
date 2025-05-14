@@ -10,6 +10,72 @@ const Experience: React.FC<ExperienceProps> = (props) => {
             <div style={styles.headerContainer}>
                 <div style={styles.header}>
                     <div style={styles.headerRow}>
+                        <h1>Tell Media LTD</h1>
+                        <a
+                            rel="noreferrer"
+                            target="_blank"
+                            href={'https://hover.gg/'}
+                        >
+                            <h4></h4>
+                        </a>
+                    </div>
+                    <div style={styles.headerRow}>
+                        <h3>Developer & Technical Specialist</h3>
+                        <b>
+                            <p>April 2025</p>
+                        </b>
+                    </div>
+                </div>
+            </div>
+            <div className="text-block">
+                <p>
+                    Work on a mix of software development, workflow optimisation, and 
+                    hands-on production. Build internal tools (UX/front end, AI integrations, APIs), contribute 
+                    to graphic operations (XML, data integration), and support live production platforms like vMix 
+                    and Ross XPression.
+                </p>
+                <br />
+                <ul>
+                    <li>
+                        <p>
+                             Develop internal tools and dashboards to support production and operations (front end, 
+                             UX, AI-driven tools).
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                             Design and deploy automated API workflows to streamline internal processes and data 
+                            movement.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Operate production tools such as vMix and Ross XPression during live and recorded 
+projects. 
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Integrate live XML data feeds into graphic systems and collaborate with Tell SEA to 
+manage and maintain graphic databases.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                             Provide cross-functional technical support across global projects, working with teams in 
+Southeast Asia, the Gulf, and the UK
+                        </p>
+                    </li>
+                    {/* <li>
+                        <p>
+                            Travel occasionally for major live events and technical deployments. 
+                        </p>
+                    </li> */}
+                </ul>
+            </div>
+            <div style={styles.headerContainer}>
+                <div style={styles.header}>
+                    <div style={styles.headerRow}>
                         <h1>Freelance</h1>
                         <a
                             rel="noreferrer"
