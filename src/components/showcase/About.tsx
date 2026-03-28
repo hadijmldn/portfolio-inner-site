@@ -62,7 +62,7 @@ const About: React.FC<AboutProps> = (props) => {
                 <br />
                 <br />
                 <br />
-                <div style={{}}>
+                <div style={{ display: 'flex', flexWrap: 'wrap' }}>
                     <div
                         style={{
                             flex: 1,
@@ -81,6 +81,16 @@ const About: React.FC<AboutProps> = (props) => {
                             Digital Art. Some other hobbies I
                             enjoy are working out, cooking, and (unsurprisingly)
                             playing video games.
+                        </p>
+                        <br />
+                        <p>
+                            I'm also a huge football fan — whether it's
+                            watching matches or playing with friends, football
+                            has always been a big part of my life. On top of
+                            that, I love motorcycles. There's nothing quite
+                            like the thrill of hitting the open road on two
+                            wheels. Riding gives me a sense of freedom and
+                            adventure that I really enjoy.
                         </p>
                         <br />
                         {/* <p>
@@ -138,6 +148,8 @@ const styles: StyleSheetCSS = {
     image: {
         height: 'auto',
         width: '100%',
+        maxHeight: 300,
+        objectFit: 'cover',
     },
     topImage: {
         height: 'auto',
@@ -146,12 +158,10 @@ const styles: StyleSheetCSS = {
     },
     verticalImage: {
         alignSelf: 'center',
-        // width: '80%',
+        maxWidth: 250,
         marginLeft: 32,
         flex: 0.8,
-
         alignItems: 'center',
-        // marginBottom: 32,
         textAlign: 'center',
         flexDirection: 'column',
     },
