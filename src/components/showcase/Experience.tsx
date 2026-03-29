@@ -11,13 +11,6 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                 <div style={styles.header}>
                     <div style={styles.headerRow}>
                         <h1>Tell Media LTD</h1>
-                        <a
-                            rel="noreferrer"
-                            target="_blank"
-                            href={'https://hover.gg/'}
-                        >
-                            <h4></h4>
-                        </a>
                     </div>
                     <div style={styles.headerRow}>
                         <h3>Developer & Technical Specialist</h3>
@@ -77,13 +70,6 @@ Southeast Asia, the Gulf, and the UK
                 <div style={styles.header}>
                     <div style={styles.headerRow}>
                         <h1>Freelance</h1>
-                        <a
-                            rel="noreferrer"
-                            target="_blank"
-                            href={'https://hover.gg/'}
-                        >
-                            <h4></h4>
-                        </a>
                     </div>
                     <div style={styles.headerRow}>
                         <h3>Frontend Engineer</h3>
@@ -205,13 +191,6 @@ Southeast Asia, the Gulf, and the UK
                 <div style={styles.header}>
                     <div style={styles.headerRow}>
                         <h1>Indotribes RolePlay</h1>
-                        <a
-                            target="_blank"
-                            rel="noreferrer"
-                            href={''}
-                        >
-                            <h4></h4>
-                        </a>
                     </div>
                     <div style={styles.headerRow}>
                         <h3>Game Developer</h3>
