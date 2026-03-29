@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background: #000;
+            width: 100%;
+            height: 100%;
+        }
+        #game {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div id="game"></div>
+    <script>
+        var params = new URLSearchParams(window.location.search);
+        var rom = params.get('rom') || 'roms/harvestmoon.sfc';
+
+        var EJS_player = '#game';
+        var EJS_core = 'snes9x';
+        var EJS_gameUrl = rom;
+        var EJS_color = '#1C1C1C';
+        var EJS_startOnLoaded = true;
+        var EJS_pathtodata = 'https://cdn.emulatorjs.org/stable/data/';
+        var EJS_disableAutoLang = true;
+    </script>
+    <script src="https://cdn.emulatorjs.org/stable/data/loader.js"></script>
+</body>
+</html>

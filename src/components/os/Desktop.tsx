@@ -11,6 +11,7 @@ import { IconName } from '../../assets/icons';
 import Credits from '../applications/Credits';
 import Fifa from '../applications/Fifa';
 import Lamborghini from '../applications/Lamborghini';
+import HarvestMoon from '../applications/HarvestMoon';
 
 export interface DesktopProps {}
 
@@ -89,6 +90,12 @@ const APPLICATIONS: {
         name: 'Lamborghini',
         shortcutIcon: 'lamborghini',
         component: Lamborghini,
+    },
+    harvestMoon: {
+        key: 'harvestMoon',
+        name: 'Harvest Moon',
+        shortcutIcon: 'harvestMoon',
+        component: HarvestMoon,
     }
 };
 

@@ -22,6 +22,7 @@ import kingsBeach from './kingsBeach.png';
 import monopoly from './monopoly.png';
 import fifa from './fifa.png';
 import lamborghini from './lamborghini.png';
+import harvestMoon from './harvestMoon.png';
 const icons = {
     windowResize: windowResize,
     maximize: maximize,
@@ -45,6 +46,7 @@ const icons = {
     monopoly: monopoly,
     fifa: fifa,
     lamborghini: lamborghini,
+    harvestMoon: harvestMoon,
 };
 
 export type IconName = keyof typeof icons;

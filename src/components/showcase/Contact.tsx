@@ -4,7 +4,6 @@ import twitterIcon from '../../assets/pictures/contact-twitter.png';
 import ghIcon from '../../assets/pictures/contact-gh.png';
 import inIcon from '../../assets/pictures/contact-in.png';
 import ResumeDownload from './ResumeDownload';
-import emailjs from '@emailjs/browser';
 
 export interface ContactProps {}
 
@@ -52,16 +51,24 @@ const Contact: React.FC<ContactProps> = (props) => {
     const handleSubmit = useCallback(() => {
         if (isFormValid) {
             setIsLoading(true);
-            emailjs.send('service_rqelogu', 'template_kdxkk9b', {
-                company,
-                email,
-                name,
-                message,
-            },
-                'IrUpIov5mMNvUvc4T'
-            )
+            fetch('https://formsubmit.co/ajax/hadijmldn@gmail.com', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Accept': 'application/json',
+                },
+                body: JSON.stringify({
+                    _subject: `New Portfolio Message from ${name}`,
+                    _template: 'table',
+                    Name: name,
+                    Email: email,
+                    Company: company || 'Not provided',
+                    Message: message,
+                    _replyto: email,
+                }),
+            })
                 .then((res) => {
-                    if (res.status === 200) {
+                    if (res.ok) {
                         setFormMessage(
                             `Message successfully sent. Thank you ${name}!`
                         );
@@ -70,16 +77,15 @@ const Contact: React.FC<ContactProps> = (props) => {
                         setName('');
                         setMessage('');
                         setFormMessageColor(colors.blue);
-                        setIsLoading(false);
                     } else {
                         setFormMessage(
                             'There was an error sending your message. Please try again.'
                         );
                         setFormMessageColor(colors.red);
-                        setIsLoading(false);
                     }
+                    setIsLoading(false);
                 })
-                .catch((err) => {
+                .catch(() => {
                     setFormMessage(
                         'There was an error sending your message. Please try again.'
                     );
